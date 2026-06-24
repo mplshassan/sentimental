@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 
 def compound_color(score: float) -> str:
     if score >= 0.05:
-        return "#ffffc5"  # positive: yellow
+        return "#ffe159"  # positive: yellow
     elif score <= -0.05:
         return "#c5c5ff"  # negative: blue
     return "#888888"  # neutral: gray
