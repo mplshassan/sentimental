@@ -91,7 +91,7 @@ st.markdown(
 st.markdown("<div class='section-label'>type freely:</div>", unsafe_allow_html=True)
 free_text = st.text_area(
     label="free_text",
-    placeholder="type or paste anything. sentences are detected automatically.",
+    placeholder="type or paste anything.",
     height=130,
     label_visibility="collapsed",
     key="free_text_input",
