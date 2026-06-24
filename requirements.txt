@@ -1,0 +1,4 @@
+streamlit
+plotly
+nltk
+vaderSentiment
